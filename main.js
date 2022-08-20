@@ -1,3 +1,5 @@
+
+
 let menu = document.querySelector('#menu-icon');
 let navbar = document.querySelector('.navbar');
 
@@ -11,6 +13,9 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 };
 
+
+
+
 const sr = ScrollReveal ({
     distance: '60px',
     duration: 2500,
@@ -19,4 +24,6 @@ const sr = ScrollReveal ({
 
 sr.reveal('.home-text',{delay:200, orgin:'top'})
 sr.reveal('.home-img',{delay:400, orgin:'top'})
-sr.reveal('.about, .education, .contact, .copyright',{delay:200, origin:'top'})
+sr.reveal('.about, .education, .contact, .copyright',{delay:200, origin:'top'});
+
+
