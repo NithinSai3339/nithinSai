@@ -264,6 +264,31 @@ section{
     width: 580px;
     height: auto;
 }
+.epi-btn{
+    background: var(--main-color);
+    color: var(--text-color);
+    box-shadow: 4px 4px var(--text-color);
+    margin: 5px;
+    padding: 0 5px;
+    line-height: 42px;
+    display: inline-block;
+    border: 1px splid transparent;
+    font-size: 12px;
+    font-weight: 400; 
+    letter-spacing: 2px;
+    transition: ease all 0.35s;
+    border-radius: 5px;
+   
+} 
+.epi-btn:hover{
+    color: var(--main-color);
+    background: var(--text-color);
+    box-shadow: 3px 3px var(--main-color); 
+}
+.episodes{
+    
+    
+}
 
 
 .contact-info{
@@ -385,6 +410,18 @@ section{
     .about-img{
         order: 2;
     }
+    .box{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .box img{
+        order: 2;
+    }
+    .episodes{
+        
+    }
+    
+    
     
 
 }
