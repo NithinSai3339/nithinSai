@@ -248,12 +248,13 @@ section{
 .projects-content .row:hover{
     transform: none;
 }
-.projects-content p{
-    text-align: justify;
+.projects-content span{
+    
 }
 .projects-content .btn{
     border-radius: 5px;
     box-shadow: none;
+    margin: 5px;
 }
 
 
