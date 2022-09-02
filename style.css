@@ -233,7 +233,7 @@ section{
 .row:hover{
     transform: translateY(-15px);
     box-shadow: 0px 15px 30px 0px rgb(0 0);
-    box-shadow: 1px 1px 10px rgb(106, 106, 106);
+    box-shadow: 1px 1px 10px var(--main-color);
 }
 
 .projects-content{
@@ -278,14 +278,16 @@ section{
     
 }
 .stories-content .box:hover{
-    box-shadow: 1px 1px 10px rgb(106, 106, 106);
+    box-shadow: 1px 1px 10px var(--main-color);
 }
-.box h3{
+.stories-content .box h3{
     font-size: 1.25rem;
     font-weight: 500;
     margin-bottom: 20px;
     color: var(--text-color);
 }
+
+
 .box img{
     max-width: 100%;
     width: 580px;
@@ -315,13 +317,17 @@ section{
 
 
 .contact-info{
-    align-items: center;
+    text-align: center;
     margin-top: 4.4rem;
     background: #0b0b13;
     padding: 60px 35px;
-    border-radius: 5px;
+    border-radius: 10px;
     cursor: pointer;
     transition: all .40s;
+}
+.contact-info:hover{
+    box-shadow: 1px 1px 10px var(--main-color);
+    border-radius: 0px 50px;
 }
 .contact-info h3{
     font-size: 1.25rem;
